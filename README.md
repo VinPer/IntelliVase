@@ -1,10 +1,14 @@
-# Projeto: POV Cylinder
-O projeto visa criar uma aplicação de **Persistence of Vision** utilizando um cilindro com fitas de LED rotacionando à uma velocidade fixa, gerando a ilusão de uma imagem animada, sendo possível carregar o sistema com um .gif a partir da comunicação Bluetooth, além de exemplos fixos salvos no microcontrolador.
+# Projeto: IntelliVase
+O projeto visa criar um vaso inteligente que possa automaticamente cuidar de uma planta, provendo água e iluminação para a planta quando necessário, além de apresentar o estado atual da planta a partir de um display LCD e de uma comunicação Bluetooth.
 
 ## Componentes utilizados
-- Sensor IR
-- Bluetooth
-- Motor
+- Sensor de umidade de solo (Higrômetro)
+- Sensor de luz (LDR)
+- Sensor de presença (HC-SR501)
+- Bluetooth (HC08)
+- Real Time Clock (DS1307)
+- Display OLED (Adafruit SSD1306 128x32)
+- Mini bomba de água
 - Fita de LEDs
 
 ## Integrantes
@@ -15,4 +19,6 @@ Matheus Mandotti | 16.00177-0 | matheusmf1
 Vinícius Pereira | 16.03343-4 | VinPer
 
 ## Referências
-[POV Cylinder with Arduino Due por Harald Bauer](https://www.hackster.io/hanoba_DIY/pov-cylinder-with-arduino-due-7016d5)
+[Documentação oficial Mbed OS](https://os.mbed.com/docs/mbed-os/v5.12/introduction/index.html)  
+[Biblioteca Adafruit GFX](https://os.mbed.com/components/Adafruit-OLED-128x32/)  
+[Biblioteca DS1307](https://os.mbed.com/users/harrypowers/code/DS1307/)
