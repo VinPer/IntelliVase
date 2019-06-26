@@ -18,6 +18,20 @@ Felipe Andrade | 15.00175-0 | Kaisen-san
 Matheus Mandotti | 16.00177-0 | matheusmf1
 Vinícius Pereira | 16.03343-4 | VinPer
 
+## Imagens
+Imagens | ------------
+------------ | ------------
+![Imp1](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/Impermeabilizacao1.jpeg) | ![Imp2](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/Impermeabilizacao2.jpeg)
+Processo de impermeabilização | Processo de impermeabilização
+![Circ](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/CircuitoInterno.jpeg) | ![ApEx1](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/AparenciaExterna1.jpeg)
+Circuito interno | Aparência externa
+![LEDs](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/LEDs.jpeg) | ![ApEx2](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/AparenciaExterna2.jpeg)
+LEDs em funcionamento | Aparência externa
+![EmFunc1](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/EmFuncionamento1.jpeg) | ![EmFunc2](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/EmFuncionamento2.jpeg)
+IntelliVase em funcionamento | IntelliVase em funcionamento
+![EmFunc3](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/EmFuncionamento3.jpeg) | ![EmFunc4](https://raw.githubusercontent.com/VinPer/IntelliVase/master/Imagens/EmFuncionamento4.jpeg)
+IntelliVase em funcionamento | IntelliVase em funcionamento
+
 ## Referências
 [Documentação oficial Mbed OS](https://os.mbed.com/docs/mbed-os/v5.12/introduction/index.html)  
 [Biblioteca Adafruit GFX](https://os.mbed.com/components/Adafruit-OLED-128x32/)  
