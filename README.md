@@ -98,16 +98,22 @@ Vinícius Pereira | 16.03343-4 | VinPer
 ## Funcionamento do programa
 
   ### HIGRÔMETRO (ÁGUA) E BOMBA DE ÁGUA
-    - Informa o usuário para reabastecer o reservatório de água, caso o nível de água esteja muito baixo (*quanto menor o nível, maior o valor do sensor)
+    - Informa o usuário para reabastecer o reservatório de água, caso o nível de água esteja muito baixo
+    
+    Lembrando que quanto menor o nível, maior o valor do sensor.
 
   ### HIGRÔMETRO (TERRA)
-    - Rega a planta quando o nível de umidade detectado estiver abaixo do configurado (*quanto menor a umidade, maior o valor do sensor)
+    - Rega a planta quando o nível de umidade detectado estiver abaixo do configurado
     - Não rega a planta se não tiver decorrido um determinado tempo desde a última irrigação
+    
+    Lembrando que quanto menor a umidade, maior o valor do sensor.
 
   ### LDR, FITA DE LED E RTC
     - Mantem a fita de LED sempre ligada caso o usuário tenha configurado assim
-    - Caso contrário, liga/desliga a fita de LED se o nível de luz durante o dia estiver muito baixo (*quanto menor a luminosidade, maior o valor do sensor)
+    - Caso contrário, liga/desliga a fita de LED se o nível de luz durante o dia estiver muito baixo
     - Mantem a luz ligada/desligada durante um determinado tempo desde a última mudança
+    
+    Lembrando que quanto menor a luminosidade, maior o valor do sensor.
 
   ### SENSOR DE PRESENÇA
     - Reage por meio do display quando detecta presença de alguém
