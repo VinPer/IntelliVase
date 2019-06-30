@@ -63,10 +63,10 @@ int main() {
   //bt.attach(&BT_interrupt, Serial::RxIrq);
 
   time_t TS_internal;
-  time_t TS_earth = 0;
-  time_t TS_light = 0;
-  time_t TS_presence = 0;
-  time_t TS_notifyBT = 0;
+  long TS_earth = -125;
+  long TS_light = -65;
+  long TS_presence = -65;
+  long TS_notifyBT = -65;
 
   int TIME_second = 0;
   int TIME_minute = 0;
@@ -356,7 +356,7 @@ void DEBUG_run() {
   wait(10);
 
   while (true) {
-    time_t TS_internal = time(NULL);
+    TS_internal = time(NULL);
     rtc.gettime(&second, &minute, &hour, &day, &date, &month, &year);
 
     bt.printf(
