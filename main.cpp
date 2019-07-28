@@ -63,10 +63,10 @@ int main() {
   //bt.attach(&BT_interrupt, Serial::RxIrq);
 
   time_t TS_internal;
-  long TS_earth = -125;
-  long TS_light = -65;
-  long TS_presence = -65;
-  long TS_notifyBT = -65;
+  long TS_earth = -120;
+  long TS_light = -60;
+  long TS_presence = -60;
+  long TS_notifyBT = -60;
 
   int TIME_second = 0;
   int TIME_minute = 0;
